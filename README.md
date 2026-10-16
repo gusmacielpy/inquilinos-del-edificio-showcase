@@ -1,5 +1,7 @@
 # Inquilinos — Building Management & Monthly Settlement Platform
 
+> 🇬🇧 English (current) · 🇪🇸 [Leer en español](./README.es.md) · → [Architecture deep dive](./ARCHITECTURE.md)
+
 **A Next.js + Supabase SaaS that replaces a paper-and-pen building administration workflow with a domain-rich settlement engine.**
 
 > A single-tenant building of 10 units (2 blocks, 3 floors, Gs. currency) where the most expensive manual task — generating the monthly tenant settlement — required crossing scattered data (rent, guarantee installments, water proration, ANDE electricity bills, late fees, carried debt). Now it runs in seconds.
@@ -93,7 +95,7 @@ Three surfaces: **Next.js app** (UI + API), **Supabase** (state), **Coolify/Nixp
 
 Architecture decisions, domain rules and trade-offs:
 
-**→ [ARCHITECTURE.md](./ARCHITECTURE.md)**
+**→ [ARCHITECTURE.md](./ARCHITECTURE.md)** · [Versión en español](./ARCHITECTURE.es.md)
 
 Covers: derived contract states, billing period arithmetic, `mora` accrual, water proration (3 modes), settlement composition, `exclusion_saldo` vs `pago`, snapshot semantics, and known limitations.
 

@@ -1,5 +1,7 @@
 # Architecture Deep Dive — Inquilinos
 
+> 🇬🇧 English (current) · 🇪🇸 [Leer en español](./ARCHITECTURE.es.md)
+
 > Paraphrased from the private implementation. Code snippets are shortened for clarity. Spanish domain terms are preserved where they carry business meaning.
 
 ---
