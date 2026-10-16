@@ -1,0 +1,3 @@
+# Showcase has no build artifacts or secrets.
+# Keep this file so the repo is not flagged as having no .gitignore.
+.DS_Store
